@@ -1,68 +1,81 @@
 <?php
 $anuales = array(
-	'leanstartupmachine' => array(
-	        'id'  =>  'leanstartupmachinemontevideo',
-	        'titulo' => 'Lean Startup Machine Montevideo 2014',
-	        'lugar' => 'a definir, Montevideo',
-	        'fecha' => '1, 2 y 3 de Agosto de 2014',
-	        'horario' => '',
-	        'costo' => '',
-	        'link' => 'http://l3an.com/1c7WUDJ',
-	        'descripcion' => '',
-	        'tags'=>'lean startup, emprendedor, desarrollo',
-	        'links_otros'=>array(
-	                array(
-	                    'txt' => '@scrumJedi',
-	                    'uri' => 'https://twitter.com/scrumjedi',
-	                    'alt' => 'twitter'
-	                ),
-	            ),            
+    'leanstartupmachine' => array(
+        'id' => 'leanstartupmachinemontevideo',
+        'titulo' => 'Lean Startup Machine Montevideo 2014',
+        'lugar' => 'a definir, Montevideo',
+        'fecha' => '1, 2 y 3 de Agosto de 2014',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://l3an.com/1c7WUDJ',
+        'descripcion' => '',
+        'tags' => 'lean startup, emprendedor, desarrollo',
+        'links_otros' => array(
+            array(
+                'txt' => '@scrumJedi',
+                'uri' => 'https://twitter.com/scrumjedi',
+                'alt' => 'twitter'
+            )
+        )
     ),
-	'cisl2014' => array(
-	        'id'  =>  'cisl2014',
-	        'titulo' => 'Avanza 2014',
-	        'subtitulo' => 'Tercera Conferencia Internacional de Software Libre y Código Abierto',
-	        'lugar' => 'Torre Telecomunicaciones Antel',
-	        'fecha' => '4 y 5 de Agosto de 2014',
-	        'horario' => '9:00 a 18:30',
-	        'costo' => 'gratis',
-	        'link' => 'hhttp://www.antel.com.uy/avanza/cisl2014/agenda/',
-	        'descripcion' => '',
-	        'tags'=>'OS, gnu, software libre',
-	        'links_otros'=>array(
-	                array(
-	                    'txt' => 'Expositores',
-	                    'uri' => 'http://www.antel.com.uy/avanza/cisl2014/expositores/',
-	                    'alt' => 'expositores'
-	                ),
-	            ),            
+    'cisl2014' => array(
+        'id' => 'cisl2014',
+        'titulo' => 'Avanza 2014',
+        'subtitulo' => 'Tercera Conferencia Internacional de Software Libre y Código Abierto',
+        'lugar' => 'Torre Telecomunicaciones Antel',
+        'fecha' => '4 y 5 de Agosto de 2014',
+        'horario' => '9:00 a 18:30',
+        'costo' => 'gratis',
+        'link' => 'http://www.antel.com.uy/avanza/cisl2014/agenda/',
+        'descripcion' => '',
+        'tags' => 'OS, gnu, software libre',
+        'links_otros' => array(
+            array(
+                'txt' => 'Expositores',
+                'uri' => 'http://www.antel.com.uy/avanza/cisl2014/expositores/',
+                'alt' => 'expositores'
+            )
+        )
     ),
-     'netconfuy' => array(
-                'id'  =>  'netconfuy',
-                'titulo' => '.NET Conf UY',
-                'lugar' => 'Auditorio Antel, Montevideo',
-                'fecha' => '3 y 4 de Octubre de 2014',
-                'horario' => '',
-                'costo' => '',
-                'link' => 'http://netconf.uy/',
-                'descripcion' => '',
-                'tags'=>'.net, azure, sharepoint, mobile, mvc, c#, aop, sql, windows 8, windows phone, xamarin, internet of things, visual studio',
-                'links_otros'=>array(
-						array(
-                        'txt' => '@NETConfUY',
-						'uri' => 'https://twitter.com/NETConfUY',
-						'alt' => 'twitter'
-						),
-						array(
-							'txt' => 'Facebook',
-							'uri' => 'https://www.facebook.com/NETConfUY',
-							'alt' => 'Facebook'
-                ),
-                    ),            
+    'uyog' => array(
+        'id' => 'uyog',
+        'titulo' => 'Montevideo OTN Tour 2014',
+        'subtitulo' => '',
+        'lugar' => 'Universidad ORT - Campus centro',
+        'fecha' => '14 y 15 de Agosto de 2014',
+        'horario' => '9:00 a 18:00',
+        'costo' => '0 ~ 20USD',
+        'link' => 'http://www.uyoug.org.uy/',
+        'descripcion' => '',
+        'tags' => 'Oracle, DB',
+        'links_otros' => array()
     ),
-    
-        'techmeetup' => array(
-        'id'  =>  'techmeetupuy',
+    'netconfuy' => array(
+        'id' => 'netconfuy',
+        'titulo' => '.NET Conf UY',
+        'lugar' => 'Auditorio Antel, Montevideo',
+        'fecha' => '3 y 4 de Octubre de 2014',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://netconf.uy/',
+        'descripcion' => '',
+        'tags' => '.net, azure, sharepoint, mobile, mvc, c#, aop, sql, windows 8, windows phone, xamarin, internet of things, visual studio',
+        'links_otros' => array(
+            array(
+                'txt' => '@NETConfUY',
+                'uri' => 'https://twitter.com/NETConfUY',
+                'alt' => 'twitter'
+            ),
+            array(
+                'txt' => 'Facebook',
+                'uri' => 'https://www.facebook.com/NETConfUY',
+                'alt' => 'Facebook'
+            )
+        )
+    ),
+
+    'techmeetup' => array(
+        'id' => 'techmeetupuy',
         'titulo' => 'techMeetup UY v2014',
         'lugar' => '',
         'fecha' => '15/11/2013',
@@ -70,25 +83,25 @@ $anuales = array(
         'costo' => '',
         'link' => 'http://tech.meetup.uy',
         'descripcion' => '',
-        'tags'=>'desarrollo, tecnología, IT',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@meetupUY',
-                    'uri' => 'https://twitter.com/meetupUY',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Facebook',
-                    'uri' => 'https://www.facebook.com/meetupuy',
-                    'alt' => 'Facebook'
-                ),
+        'tags' => 'desarrollo, tecnología, IT',
+        'links_otros' => array(
+            array(
+                'txt' => '@meetupUY',
+                'uri' => 'https://twitter.com/meetupUY',
+                'alt' => 'twitter'
             ),
-    ),
+            array(
+                'txt' => 'Facebook',
+                'uri' => 'https://www.facebook.com/meetupuy',
+                'alt' => 'Facebook'
+            )
+        )
+    )
 );
 
 $mensuales = array(
     'dotnetuy' => array(
-        'id'  =>  'dotnetuy',
+        'id' => 'dotnetuy',
         'titulo' => '.Net Meetup UY',
         'subtitulo' => '',
         'lugar' => '',
@@ -97,22 +110,22 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/NET-UY/',
         'descripcion' => '',
-        'tags'=>'.net, C#, SQL, visualStudio, Microsoft',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@NetMeetupUY',
-                    'uri' => 'https://twitter.com/NETMeetupUY',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Votar temas',
-                    'uri' => 'http://netuymeetup.uservoice.com/',
-                    'alt' => 'Votar temas'
-                ),
+        'tags' => '.net, C#, SQL, visualStudio, Microsoft',
+        'links_otros' => array(
+            array(
+                'txt' => '@NetMeetupUY',
+                'uri' => 'https://twitter.com/NETMeetupUY',
+                'alt' => 'twitter'
             ),
+            array(
+                'txt' => 'Votar temas',
+                'uri' => 'http://netuymeetup.uservoice.com/',
+                'alt' => 'Votar temas'
+            )
+        )
     ),
     'mvdjsmeetup' => array(
-        'id'  =>  'mvdjsmeetup',
+        'id' => 'mvdjsmeetup',
         'titulo' => 'MVDJS Meetup',
         'subtitulo' => 'Meetup de Javascript en Montevideo',
         'lugar' => '',
@@ -121,10 +134,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/mvd-js/',
         'descripcion' => '',
-        'tags'=>'javascript, nodeJS, html5, frontend, css'
+        'tags' => 'javascript, nodeJS, html5, frontend, css'
     ),
     'pymvdmeetup' => array(
-        'id'  =>  'pymvdmeetup',
+        'id' => 'pymvdmeetup',
         'titulo' => 'PYMVD Meetup',
         'subtitulo' => 'Meetup de Python en Montevideo',
         'lugar' => '',
@@ -133,10 +146,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/py-mvd/',
         'descripcion' => '',
-        'tags'=>'python, django, flask, tornado'
+        'tags' => 'python, django, flask, tornado'
     ),
     'ruby' => array(
-        'id'  =>  'rubymeetup',
+        'id' => 'rubymeetup',
         'titulo' => 'Ruby Meetup',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
         'fecha' => '2o martes de mes',
@@ -144,10 +157,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/rubymvd/',
         'descripcion' => '',
-        'tags'=>'ruby,rails,sinatra,web'
+        'tags' => 'ruby,rails,sinatra,web'
     ),
     'agileuy' => array(
-        'id'  =>  'agileuy',
+        'id' => 'agileuy',
         'titulo' => 'Agile UY',
         'subtitulo' => 'Comunidad agile de Uruguay',
         'lugar' => '',
@@ -156,23 +169,23 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/AgileUY/',
         'descripcion' => '',
-        'tags'=>'agile, scrum, XP, kanban, metodologias',
-        'links_otros'=>array(
+        'tags' => 'agile, scrum, XP, kanban, metodologias',
+        'links_otros' => array(
             array(
-                    'txt' => '@AgileUY',
-                    'uri' => 'https://twitter.com/AgileUy',
-                    'alt' => 'twitter'
-                ),
-            array(
-                    'txt' => 'Votar temas',
-                    'uri' => 'https://agileuy.uservoice.com/',
-                    'alt' => 'Votar Temas'
-                ),
+                'txt' => '@AgileUY',
+                'uri' => 'https://twitter.com/AgileUy',
+                'alt' => 'twitter'
             ),
+            array(
+                'txt' => 'Votar temas',
+                'uri' => 'https://agileuy.uservoice.com/',
+                'alt' => 'Votar Temas'
+            )
+        )
     ),
 
     'IxDA' => array(
-        'id'  =>  'ixda',
+        'id' => 'ixda',
         'titulo' => 'IxDA Montevideo',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
         'fecha' => '3er martes cada 2 meses',
@@ -180,11 +193,11 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Interaction-design-Uruguay',
         'descripcion' => '',
-        'tags'=>'interaction Design,UX,UI,content strategy,usability',
-        'links_otros'=>array(),
+        'tags' => 'interaction Design,UX,UI,content strategy,usability',
+        'links_otros' => array()
     ),
     'devopsmvd' => array(
-        'id'  =>  'devopsmvd',
+        'id' => 'devopsmvd',
         'titulo' => 'DevOps MVD',
         'lugar' => 'Case UY, San José 1337 of 11, Montevideo',
         'fecha' => '3er miércoles de mes',
@@ -192,17 +205,17 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://devops.meetup.uy',
         'descripcion' => '',
-        'tags'=>'devops, sysadmin, it',
-        'links_otros'=>array(
-                array(
-                    'txt' => 'irc://irc.freenode.net/devopsuy',
-                    'uri' => '',
-                    'alt' => ''
-                ),
-            ),
+        'tags' => 'devops, sysadmin, it',
+        'links_otros' => array(
+            array(
+                'txt' => 'irc://irc.freenode.net/devopsuy',
+                'uri' => '',
+                'alt' => ''
+            )
+        )
     ),
     'scala' => array(
-        'id'  =>  'scalameetup',
+        'id' => 'scalameetup',
         'titulo' => 'Scala Meetup',
         'subtitulo' => 'Grupo de Usuarios de Scala.',
         'lugar' => '',
@@ -211,17 +224,17 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Scala-Meetup-UY/',
         'descripcion' => '',
-        'tags'=>'scala',
-        'links_otros'=>array(
-                array(
-                    'txt' => 'blog',
-                    'uri' => 'http://scala.meetup.uy',
-                    'alt' => 'blog'
-                ),
-            ),
+        'tags' => 'scala',
+        'links_otros' => array(
+            array(
+                'txt' => 'blog',
+                'uri' => 'http://scala.meetup.uy',
+                'alt' => 'blog'
+            )
+        )
     ),
     'phpmvd' => array(
-        'id'  =>  'phpmvd',
+        'id' => 'phpmvd',
         'titulo' => 'PHP Montevideo',
         'subtitulo' => 'Comunidad de desarrolladores PHP',
         'lugar' => '',
@@ -230,11 +243,11 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/PHPmvd/',
         'descripcion' => '',
-        'tags'=>'php, web development, php frameworks',
-        'links_otros'=>array(),
+        'tags' => 'php, web development, php frameworks',
+        'links_otros' => array()
     ),
     'mysql' => array(
-        'id'  =>  'mysql',
+        'id' => 'mysql',
         'titulo' => 'The MySQL Meeting Group',
         'subtitulo' => 'Comunidad de usuarios de MySQL',
         'lugar' => '',
@@ -243,12 +256,12 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group/',
         'descripcion' => '',
-        'tags'=>'bases de datos, mysql',
-        'links_otros'=>array(),
+        'tags' => 'bases de datos, mysql',
+        'links_otros' => array()
     ),
 
     'automationuy' => array(
-        'id'  =>  'automationuy',
+        'id' => 'automationuy',
         'titulo' => 'AutomationUY',
         'lugar' => '',
         'fecha' => '',
@@ -256,12 +269,12 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/AutomationUY/',
         'descripcion' => '',
-        'tags'=>'automation, testing, functional programming',
-        'links_otros'=>array(),
+        'tags' => 'automation, testing, functional programming',
+        'links_otros' => array()
     ),
-    
+
     'appledevs' => array(
-        'id'  =>  'appledevs',
+        'id' => 'appledevs',
         'titulo' => 'Apple Developers - Montevideo',
         'lugar' => 'a confirmar',
         'fecha' => '2o jueves de mes',
@@ -269,12 +282,12 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Apple-Developers-Montevideo/',
         'descripcion' => '',
-        'tags'=>'mac, ios, cocoa, osx, xcode',
-        'links_otros'=>array(),
+        'tags' => 'mac, ios, cocoa, osx, xcode',
+        'links_otros' => array()
     ),
-    
+
     'testinguy' => array(
-        'id'  =>  'testinguy',
+        'id' => 'testinguy',
         'titulo' => 'Testing UY',
         'lugar' => '',
         'fecha' => '',
@@ -282,12 +295,12 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Testing-Uy/',
         'descripcion' => '',
-        'tags'=>'testing, TDD, BDD, QA',
-        'links_otros'=>array(),
+        'tags' => 'testing, TDD, BDD, QA',
+        'links_otros' => array()
     ),
-    
+
     'technbeers' => array(
-        'id'  =>  'technbeers',
+        'id' => 'technbeers',
         'titulo' => 'TechNbeers',
         'lugar' => 'Mess Resto Pub (Gabriel Pereira 3064)',
         'fecha' => '3er martes de mes',
@@ -295,18 +308,18 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://montevideovalley.com/',
         'descripcion' => '',
-        'tags'=>'proyectos, tecnologia, startups, demo',
-        'links_otros'=>array(
-                array(
-                    'txt' => '#TechNbeers',
-                    'uri' => 'https://twitter.com/search/realtime?q=technbeers&src=typd',
-                    'alt' => 'twitter'
-                ),
-            ),
+        'tags' => 'proyectos, tecnologia, startups, demo',
+        'links_otros' => array(
+            array(
+                'txt' => '#TechNbeers',
+                'uri' => 'https://twitter.com/search/realtime?q=technbeers&src=typd',
+                'alt' => 'twitter'
+            )
+        )
     ),
 
     'gugmvd' => array(
-        'id'  =>  'gugmvd',
+        'id' => 'gugmvd',
         'titulo' => 'Grupo de Usuarios GeneXus MVD',
         'subtitulo' => 'Comunidad GeneXus en Montevideo',
         'lugar' => 'CDC Latu, Av. Italia 6201',
@@ -315,11 +328,11 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://gugmontevideo.wordpress.com/',
         'descripcion' => '',
-        'tags'=>'Genexus',
-        'links_otros' => array(),
+        'tags' => 'Genexus',
+        'links_otros' => array()
     ),
     'usdug' => array(
-        'id'  =>  'usdug',
+        'id' => 'usdug',
         'titulo' => 'Salesforce Developer User Group Uruguay',
         'subtitulo' => '',
         'lugar' => 'ver web',
@@ -328,10 +341,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Uruguay-Salesforce-Developer-User-Group/',
         'descripcion' => '',
-        'tags'=>'salesforce, dev'
+        'tags' => 'salesforce, dev'
     ),
     'pymvd' => array(
-        'id'  =>  'pymvd',
+        'id' => 'pymvd',
         'titulo' => 'The Montevideo Python Meetup Group',
         'subtitulo' => '',
         'lugar' => 'ver web',
@@ -340,10 +353,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/py-mvd/',
         'descripcion' => '',
-        'tags'=>'python, dev'
+        'tags' => 'python, dev'
     ),
     'grails' => array(
-        'id'  =>  'grails',
+        'id' => 'grails',
         'titulo' => 'Grails UY',
         'subtitulo' => '',
         'lugar' => 'ver web',
@@ -352,10 +365,10 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://grails.meetup.uy',
         'descripcion' => '',
-        'tags'=>'grails'
+        'tags' => 'grails'
     ),
     'mobileuy' => array(
-        'id'  =>  'mobileuy',
+        'id' => 'mobileuy',
         'titulo' => 'MobileUY',
         'subtitulo' => 'Primer meetup de Mobile',
         'lugar' => 'OneTree office - 18 de julio 1077, piso 9',
@@ -364,86 +377,85 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/MobileUY',
         'descripcion' => '',
-        'tags'=>'Objective-C, Android, Windows Phone 8, Phonegap',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@MobileUY',
-                    'uri' => 'https://twitter.com/MobileUY',
-                    'alt' => 'twitter'
-                ),
-            ),
-        
+        'tags' => 'Objective-C, Android, Windows Phone 8, Phonegap',
+        'links_otros' => array(
+            array(
+                'txt' => '@MobileUY',
+                'uri' => 'https://twitter.com/MobileUY',
+                'alt' => 'twitter'
+            )
+        )
     ),
     'clojuremvd' => array(
-        'id'  =>  'clojuremvd',
+        'id' => 'clojuremvd',
         'titulo' => 'Clojure Montevideo',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Clojure-Meetup-Montevideo',
         'descripcion' => '',
-        'tags'=>'clojure, listp, racket',
+        'tags' => 'clojure, listp, racket'
     ),
     'freelancers' => array(
-        'id'  =>  'freelancers',
+        'id' => 'freelancers',
         'titulo' => 'Montevideo Freelancers Meetup',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Montevideo-Freelancers-Meetup/',
         'descripcion' => 'Meetup para freelancers de todo tipo de forma, color y silueta. Nos juntamos a tomar una, hacer catársis y pensar en cosas lindas para crear.',
-        'tags'=>'design, devs, freelancing, it, coworking, communication, marketing',
+        'tags' => 'design, devs, freelancing, it, coworking, communication, marketing'
     ),
     'ecommerceuy' => array(
-        'id'  =>  'ecommerceuy',
+        'id' => 'ecommerceuy',
         'titulo' => 'Ecommerce UY',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Ecommerce-UY',
         'descripcion' => '',
-        'tags'=>'ecommerce',
+        'tags' => 'ecommerce'
     ),
-     'uyoug' => array(
-        'id'  =>  'uyoug',
+    'uyoug' => array(
+        'id' => 'uyoug',
         'titulo' => 'Grupo de usuarios Oracle',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.uyoug.org.uy/',
         'descripcion' => '',
-        'tags'=>'oracle, DB, BI',
+        'tags' => 'oracle, DB, BI'
     ),
     'meteor' => array(
-        'id'  =>  'meteor',
+        'id' => 'meteor',
         'titulo' => 'Meteor Montevideo',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Meteor-Montevideo/',
         'descripcion' => '',
-        'tags'=>'js, meteor',
+        'tags' => 'js, meteor'
     ),
-     'emberjs' => array(
-        'id'  =>  'emberjs',
+    'emberjs' => array(
+        'id' => 'emberjs',
         'titulo' => 'Ember.js Montevideo',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Ember-js-Montevideo',
         'descripcion' => '',
-        'tags'=>'js, emberjs',
+        'tags' => 'js, emberjs'
     ),
     'webdesigngroup' => array(
-        'id'  =>  'webdesigngroup',
+        'id' => 'webdesigngroup',
         'titulo' => 'Montevideo Web Design Group',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/MWDgroup/',
         'descripcion' => '',
-        'tags'=>'design, oss, js, css, front-end',
+        'tags' => 'design, oss, js, css, front-end'
     ),
     'beerjs' => array(
-        'id'  =>  'beerjs',
+        'id' => 'beerjs',
         'titulo' => 'BeerJS Uruguay',
         'subtitulo' => '',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/beerjsuy/',
         'descripcion' => '',
-        'tags'=>'beer, js, web-development',
-    ),
+        'tags' => 'beer, js, web-development'
+    )
 );
