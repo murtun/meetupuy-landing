@@ -26,7 +26,7 @@ $anuales = array(
         'fecha' => '4 y 5 de Agosto de 2014',
         'horario' => '9:00 a 18:30',
         'costo' => 'gratis',
-        'link' => 'hhttp://www.antel.com.uy/avanza/cisl2014/agenda/',
+        'link' => 'http://www.antel.com.uy/avanza/cisl2014/agenda/',
         'descripcion' => '',
         'tags' => 'OS, gnu, software libre',
         'links_otros' => array(
@@ -36,6 +36,19 @@ $anuales = array(
                 'alt' => 'expositores'
             )
         )
+    ),
+    'uyog' => array(
+        'id' => 'uyog',
+        'titulo' => 'Montevideo OTN Tour 2014',
+        'subtitulo' => '',
+        'lugar' => 'Universidad ORT - Campus centro',
+        'fecha' => '14 y 15 de Agosto de 2014',
+        'horario' => '9:00 a 18:00',
+        'costo' => '0 ~ 20USD',
+        'link' => 'http://www.uyoug.org.uy/',
+        'descripcion' => '',
+        'tags' => 'Oracle, DB',
+        'links_otros' => array()
     ),
     'netconfuy' => array(
         'id' => 'netconfuy',
@@ -372,8 +385,7 @@ $mensuales = array(
                 'alt' => 'twitter'
             )
         )
-    )
-    ,
+    ),
     'clojuremvd' => array(
         'id' => 'clojuremvd',
         'titulo' => 'Clojure Montevideo',
