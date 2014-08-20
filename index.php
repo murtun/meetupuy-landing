@@ -134,7 +134,9 @@ function print_bloque($evento) {
                 </div>
                 <div class="row">
                     <div class="span12">
-                        <a href="http://tech.meetup.uy"><img src="./img/banner_techmeetup.jpg"></a>
+                        <a href="http://tech.meetup.uy" style="display: inline-block; text-align: left; margin-bottom: 1.5em; width: 87%; margin-left: 1.6em;">
+                            <img src="./img/banner_techmeetup.jpg">
+                        </a>
                     </div>
                 </div>
                 <?php
