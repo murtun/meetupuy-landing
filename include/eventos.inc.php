@@ -50,7 +50,7 @@ $anuales = array(
                 'alt' => 'YouTube'
             )
         )
-    )
+    ),
     'techmeetup' => array(
         'id' => 'techmeetupuy',
         'titulo' => 'techMeetup UY v2014',
